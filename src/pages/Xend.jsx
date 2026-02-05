@@ -1,12 +1,11 @@
 export default function Xend() {
   return (
-    <div className = "flex justify-center items-center">
+    <div className = "flex flex-col">
 
       <div>
         
-        <div>
-
-          <div>
+        <div className = "flex justify-between">
+          <div className="">
             <p>Xend Activity</p>
             <p>Showing all Xend activities as they occur real-time</p>
           </div>
