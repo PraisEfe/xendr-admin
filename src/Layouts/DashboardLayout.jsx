@@ -9,9 +9,9 @@ export default function DashboardLayout() {
       <div className="flex ">
       <SideNav />
     
-        <div className="flex flex-col justify-between h-screen pl-4 py-2.5  w-screen">
-          <Header />
+        <div className="flex flex-col justify-between  h-screen pl-4 py-2.5  w-screen">
           <div className="">
+            <Header />
             <Outlet />
           </div>
           <Footer />
